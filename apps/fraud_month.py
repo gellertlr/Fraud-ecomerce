@@ -21,7 +21,7 @@ layout = html.Div(
     children=[
         html.H1(children="Fraud Detection"),
         html.P(
-            children="Shows the months with the most fraundulent transactions.",
+            children="Shows the months with the most fraudulent transactions.",
         ),
         dcc.Graph(
         id='example-graph',
